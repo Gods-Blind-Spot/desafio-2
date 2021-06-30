@@ -1,2 +1,2 @@
 # Desafio-2-GBS
-A task of scholl
+A task of school, just for fun.
