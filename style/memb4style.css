@@ -1,0 +1,24 @@
+a {
+    color: #D96F66;
+  }
+a:visited {
+    color: #D96F66;
+  }
+a:hover {
+    color: #D96F66;
+  }
+a:active {
+    color: #D96F66;
+  }
+#AvM4 {
+  border: solid 2px;
+  border-color: #BF5050;
+  border-radius: 5px;
+  background-color: #A68F7B;
+}
+#N {
+  color: #7C8A8D
+}
+html {
+  background-color: #BFBA9F;
+}
