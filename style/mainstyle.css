@@ -1,16 +1,31 @@
-a {
-    color: #D96F66;
-  }
-a:visited {
-    color: #7C8A8D;
-  }
-a:hover {
-    color: #D96F66;
-  }
-a:active {
-    color: #D96F66;
-  }
+:root {
+	--color-prima: #A68F7B;
+	--color-second: #bfba9f;
+	--def-border-r: 15px;
+}
+
+* {
+	margin: 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Unicode', sans-serif;
+}
 
 html {
-  background-color: #BFBA9F;
+	background-color: var(--color-second);
 }
+
+nav {
+	background-color: #D96F66;
+}
+
+a {
+	color: #D96F66;
+	}
+a:visited {
+	color: #7C8A8D;
+	}
+a:hover {
+	color: #D96F66;
+	}
+a:active {
+	color: #D96F66;
+	}
