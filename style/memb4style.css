@@ -15,10 +15,17 @@ a:active {
   border-color: #BF5050;
   border-radius: 5px;
   background-color: #A68F7B;
+  width: 25%;
 }
 #N {
   color: #7C8A8D
 }
 html {
   background-color: #BFBA9F;
+}
+.AvtAndText {
+  display:flex;
+}
+.AvtAndText img {
+  margin-right: 10px;
 }
