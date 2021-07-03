@@ -1,9 +1,10 @@
 :root {
-	--color-primar: #A68F7B;
-	--color-second: #BFBA9F;
-	--color-quarta: #D96F66;
-	--color-tertia: #BF5050;
-	--color-quinta: #7C8A8D;
+	--color-primar: #CAD2C5;
+	--color-second: #566E78;
+	--color-quarta: #B3BAB3;
+	--color-tertia: #38454E;
+	--color-quinta: #90A8A8;
+
 	--def-border-1: 10px;
 	--def-border-2: 3px;
 }
@@ -12,6 +13,10 @@ html {
 	margin: 15px;
 	background-color: var(--color-second);
 	font-family: 'Lucida Sans', 'Lucida Sans Unicode', sans-serif;
+}
+
+html ::selection {
+	background-color: var(--color-second);
 }
 
 header {
@@ -35,23 +40,28 @@ article {
 	padding: 15px;
 }
 
+ol {
+	list-style-type: lower-greek;
+}
+
 .trio {
+	margin-top: 20px;
 	justify-content: space-between;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .trio div {
-	margin: 10px;
 	background-color: var(--color-quinta);
 	border-radius: var(--def-border-1);
-	width: 100%;
-	min-width: 50vh;
+	margin-bottom: 15px; margin-left: auto; margin-right: auto;
+	width: 60vh;
 }
 
 .trio div h2 {
 	border-radius: var(--def-border-1) var(--def-border-1) 0 0;
-	background-color: #BF5050;
-	text-align: center;
+	background-color: var(--color-second);
+	text-align: justify;
 	padding: 5px;
 	margin: 0;
 }
@@ -67,11 +77,11 @@ article {
 
 a {
 	text-decoration: none;
-	color: var(--color-second);
+	color: var(--color-tertia);
 	transition: 200ms;
 }
 
 a:hover {
-	color: var(--color-primar);
+	color: var(--color-second);
 	transition: 200ms;
 }
