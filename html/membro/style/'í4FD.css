@@ -1,0 +1,41 @@
+@import url(../../../style/mainstyle.css);
+
+article {
+	zoom: 1.25;
+	display: flex;
+}
+
+article div {
+	padding: 10px;
+	border-radius: var(--def-border-1);
+	background-color: var(--color-quinta);
+	margin-right: 15px;
+}
+
+article div:first-child {
+	margin-left: 5%;
+}
+
+article div:last-child {
+	margin-right: 5%;
+}
+
+.profile img {
+	width: 200px;
+	border-radius: var(--def-border-1);
+}
+
+.aboutme {
+	text-align: justify;
+	padding-left: 1%; padding-right: 1%;
+}
+
+.aboutme h2 {
+	padding-top: 5px;
+	margin: 0;
+}
+
+.aboutme #noname {
+	font-family: monospace;
+	font-size: larger;
+}

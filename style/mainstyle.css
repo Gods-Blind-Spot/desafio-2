@@ -1,31 +1,77 @@
 :root {
-	--color-prima: #A68F7B;
-	--color-second: #bfba9f;
-	--def-border-r: 15px;
-}
-
-* {
-	margin: 0;
-	font-family: 'Lucida Sans', 'Lucida Sans Unicode', sans-serif;
+	--color-primar: #A68F7B;
+	--color-second: #BFBA9F;
+	--color-quarta: #D96F66;
+	--color-tertia: #BF5050;
+	--color-quinta: #7C8A8D;
+	--def-border-1: 10px;
+	--def-border-2: 3px;
 }
 
 html {
+	margin: 15px;
 	background-color: var(--color-second);
+	font-family: 'Lucida Sans', 'Lucida Sans Unicode', sans-serif;
 }
 
-nav {
-	background-color: #D96F66;
+header {
+	text-indent: 15px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: var(--def-border-1) var(--def-border-1) 0 0;
+	background-color: var(--color-tertia);
+	margin-bottom: 0;
+	padding: 2px 2px;
+}
+
+header img{
+	max-width: 64px;
+}
+
+article {
+	border-radius: 0 0 var(--def-border-1) var(--def-border-1);
+	background-color: var(--color-primar);
+	margin-top: 0;
+	padding: 15px;
+}
+
+.trio {
+	justify-content: space-between;
+	display: flex;
+}
+
+.trio div {
+	margin: 10px;
+	background-color: var(--color-quinta);
+	border-radius: var(--def-border-1);
+	width: 100%;
+	min-width: 50vh;
+}
+
+.trio div h2 {
+	border-radius: var(--def-border-1) var(--def-border-1) 0 0;
+	background-color: #BF5050;
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+}
+
+.trio div #alert {
+	text-align: justify;
+	padding: 10px 5px 0 5px;
+}
+
+#lema {
+	color: var(--color-tertia);
 }
 
 a {
-	color: #D96F66;
-	}
-a:visited {
-	color: #7C8A8D;
-	}
+	text-decoration: none;
+	color: var(--color-second);
+	transition: 200ms;
+}
+
 a:hover {
-	color: #D96F66;
-	}
-a:active {
-	color: #D96F66;
-	}
+	color: var(--color-primar);
+	transition: 200ms;
+}
