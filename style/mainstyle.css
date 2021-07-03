@@ -24,10 +24,6 @@ header {
 	padding: 2px 2px;
 }
 
-header img{
-	max-width: 64px;
-}
-
 article {
 	border-radius: 0 0 var(--def-border-1) var(--def-border-1);
 	background-color: var(--color-primar);
@@ -74,4 +70,8 @@ a {
 a:hover {
 	color: var(--color-primar);
 	transition: 200ms;
+}
+#Simbgif {
+	width: 130px;
+	height: 120px;
 }
