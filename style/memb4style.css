@@ -16,6 +16,7 @@ a:active {
   border-radius: 5px;
   background-color: #A68F7B;
   width: 25%;
+  height: 25%;
 }
 #N {
   color: #7C8A8D
@@ -28,4 +29,7 @@ html {
 }
 .AvtAndText img {
   margin-right: 10px;
+}
+h2 {
+  font-size: 1.17em;
 }
