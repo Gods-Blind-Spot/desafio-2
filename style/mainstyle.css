@@ -1,9 +1,9 @@
 :root {
-	--color-primar: #CAD2C5;
+	--color-primar: #38454E;
 	--color-second: #566E78;
+	--color-tertia: #869b9b;
 	--color-quarta: #B3BAB3;
-	--color-tertia: #38454E;
-	--color-quinta: #90A8A8;
+	--color-quinta: #CAD2C5;
 
 	--def-border-1: 10px;
 	--def-border-2: 3px;
@@ -24,14 +24,19 @@ header {
 	display: flex;
 	justify-content: space-between;
 	border-radius: var(--def-border-1) var(--def-border-1) 0 0;
-	background-color: var(--color-tertia);
+	background-color: var(--color-primar);
 	margin-bottom: 0;
 	padding: 2px 2px;
 }
 
+header img {
+	width: 5em;
+	height: 5em;
+}
+
 article {
 	border-radius: 0 0 var(--def-border-1) var(--def-border-1);
-	background-color: var(--color-primar);
+	background-color: var(--color-quinta);
 	margin-top: 0;
 	padding: 15px;
 }
@@ -48,7 +53,7 @@ ol {
 }
 
 .trio div {
-	background-color: var(--color-quinta);
+	background-color: var(--color-quarta);
 	border-radius: var(--def-border-1);
 	margin-bottom: 15px; margin-left: auto; margin-right: auto;
 	width: 60vh;
@@ -68,20 +73,18 @@ ol {
 }
 
 #lema {
-	color: var(--color-tertia);
+	color: var(--color-primar);
 }
 
 a {
+	display: block;
 	text-decoration: none;
-	color: var(--color-tertia);
-	transition: 200ms;
+	color: var(--color-second);
+	transition: 500ms;
 }
 
 a:hover {
-	color: var(--color-second);
-	transition: 200ms;
-}
-#Simbgif {
-	width: 130px;
-	height: 120px;
+	color: var(--color-quinta);
+	transform: rotateX(720deg);
+	transition: 1000ms;
 }

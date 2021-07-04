@@ -1,7 +1,6 @@
 @import url(../../../style/mainstyle.css);
 
 article {
-	zoom: 1.25;
 	display: flex;
 }
 
@@ -37,5 +36,5 @@ article div:last-child {
 
 .aboutme #noname {
 	font-family: monospace;
-	font-size: larger;
+	font-size: 1.35em;
 }
