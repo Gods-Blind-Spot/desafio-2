@@ -33,3 +33,13 @@ html {
 h2 {
   font-size: 1.17em;
 }
+#teste  {
+  height:165px;
+  width:140px;
+  background: url("/images/GBS_1.11.gif");
+  margin:auto; /*position the [div] on the center*/
+}
+.teste:hover {
+  cursor:pointer; 
+  background:url("/images/GBS_1.11.gif");
+}
