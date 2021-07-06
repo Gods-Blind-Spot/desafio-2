@@ -83,6 +83,13 @@ a {
 	transition: 500ms;
 }
 
+a:visited {
+	display: block;
+	text-decoration: none;
+	color: var(--color-second);
+	transition: 500ms;
+}
+
 a:hover {
 	color: var(--color-quinta);
 	transform: rotateX(720deg);
