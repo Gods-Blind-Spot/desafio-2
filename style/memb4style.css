@@ -1,28 +1,28 @@
 a {
-    color: #D96F66;
+    color: #CAD2C5;
   }
 a:visited {
-    color: #D96F66;
+    color: #CAD2C5;
   }
 a:hover {
-    color: #D96F66;
+    color: #CAD2C5;
   }
 a:active {
-    color: #D96F66;
+    color: #CAD2C5;
   }
 #AvM4 {
   border: solid 2px;
-  border-color: #BF5050;
+  border-color: #38454E;
   border-radius: 5px;
-  background-color: #A68F7B;
+  background-color: #566E78;
   width: 25%;
   height: 25%;
 }
 #N {
-  color: #7C8A8D
+  color: #869b9b
 }
 html {
-  background-color: #BFBA9F;
+  background-color: #B3BAB3;
 }
 .AvtAndText {
   display:flex;
